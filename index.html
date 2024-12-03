@@ -10,6 +10,7 @@
             const targetUrl = "http://awa.freeserver.tw:22170";
             // 嘗試自動跳轉
             try {
+                await wait(500);
                 window.location.href = targetUrl;
             } catch (error) {
                 console.error("自動跳轉失敗，請手動跳轉");
