@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>導入到 awa.freeserver.tw:22170</title>
-    <script>
+    <!-- script>
         //await wait(1);
         // 自動跳轉的功能
         function autoRedirect() {
@@ -18,11 +18,12 @@
         }
         // 在頁面載入時嘗試跳轉
         window.onload = autoRedirect;
-    </script>
+    </script -->
 </head>
 <body>
-    <h1>頁面正在導入...</h1>
-    <p>若未自動跳轉，請點擊下方按鈕。</p>
     <button onclick="window.location.href='http://awa.freeserver.tw:22170';">手動跳轉</button>
+    <iframe src="http://awa.freeserver.tw:22170" frameborder="1" width="100%" height="auto">
+        <p>你的瀏覽器不支援此網站，請嘗試前往目標 /\</p>
+    </iframe>
 </body>
 </html>
